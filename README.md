@@ -101,18 +101,18 @@ const CONFIG = {
   email: "",        // coloque aqui o e-mail oficial confirmado
   telefone: "",
   localizacao: "",
-  redes: []
+  redes: [Instagram]
 };
 ```
 
-- Escreva o e-mail entre as aspas, por exemplo `email: "contacto@exemplo.com"`. O botão de e-mail passa a funcionar e o endereço aparece nos Contactos e no rodapé.
+- Escreva o {nexcompanyoffice@gmail}, por exemplo `email: "contacto@exemplo.com"`. O botão de e-mail passa a funcionar e o endereço aparece nos Contactos e no rodapé.
 - Preencha o telefone e a localização do mesmo modo.
 - Para redes sociais, use este formato (uma linha por rede, separadas por vírgula):
 
   ```js
   redes: [
     { nome: "LinkedIn", url: "https://www.linkedin.com/company/..." },
-    { nome: "Instagram", url: "https://www.instagram.com/..." }
+    { nome: "Instagram", url: "https://instagram.com/nexcompany09?psln=OXBnY3RkOGRqYncw }
   ]
   ```
 
