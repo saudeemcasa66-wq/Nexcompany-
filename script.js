@@ -6,7 +6,7 @@
    ===================================================================== */
 
 const CONFIG = {
-  email: "",        // Exemplo: "nexcompanyoffice@gmail.com"  (só preencha depois de confirmado)
+  email: "",        // Exemplo: "nexcompanyoffice@gmail.com"  ()
   telefone: "",     // Exemplo: "+244 950 025305"
   localizacao: "",  // Exemplo: "Luanda, Angola"
   redes: [
