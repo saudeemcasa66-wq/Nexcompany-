@@ -6,13 +6,13 @@
    ===================================================================== */
 
 const CONFIG = {
-  email: "",        // Exemplo: "contacto@seudominio.com"  (só preencha depois de confirmado)
-  telefone: "",     // Exemplo: "+244 900 000 000"
+  email: "",        // Exemplo: "nexcompanyoffice@gmail.com"  (só preencha depois de confirmado)
+  telefone: "",     // Exemplo: "+244 950 025305"
   localizacao: "",  // Exemplo: "Luanda, Angola"
   redes: [
-    // Preencha só com contas oficiais confirmadas. Exemplo:
-    // { nome: "LinkedIn", url: "https://www.linkedin.com/company/..." },
-    // { nome: "Instagram", url: "https://www.instagram.com/..." }
+    // Instagram, Facebook,LinkdIn. Exemplo:
+    // { nome: "LinkedIn", url: "https://www.linkedin.com/compan },
+    // { nome: "Instagram", https://www.instagram.com/nexcompany09?mdxt=MW9wNXRpMzBhcjRx }
   ]
 };
 
@@ -41,7 +41,7 @@ const CONFIG = {
 
     // Fecha o menu ao escolher uma ligação
     menu.addEventListener("click", function (e) {
-      if (e.target.closest("a")) definirMenu(false);
+      if (e.target.closest("a")) definirMenuv(false);
     });
 
     // Fecha o menu com a tecla Esc
